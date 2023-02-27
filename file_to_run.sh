@@ -45,7 +45,7 @@ Rscript DADA2.R
 ##############################
 
 # Requires blast-2.9.0
-blastn -query List_ASVs.fasta -db nt -remote -out Blast_res.txt -outfmt "6 qseqid qlen sseqid slen length gaps qcovs pident staxids"
+blastn -query List_ASVs.fasta -db AmphipodDB -out Blast_res.txt -outfmt "6 qseqid qlen sseqid slen length gaps qcovs pident staxids"
 
 #############################
 ###  DOWNSTREAM ANALYSES  ###
